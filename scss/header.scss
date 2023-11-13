@@ -1,0 +1,44 @@
+
+html{
+  font-size: 15px;
+}
+body{
+  font-family:"josefin sans",sans-serif;
+  font-weight: 400;
+  color: $dark-blue;
+}
+
+header i{
+    color: $orange;
+  }
+  .calls{
+    display: flex;
+    gap: 20px;
+  }
+   header{
+    border-bottom: 1px solid skyblue ;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 70px;
+    margin: auto;
+  }
+  .social{
+    display: flex;
+    gap: 20px;
+    a{
+      text-decoration: none;
+      border: 1px solid $orange;
+      border-radius: 4px;
+      width: 35px;
+      height: 35px;
+      justify-content: center;
+      align-items: center;
+      transition: 0.3s;
+    }
+  }
+  a:hover{background: orange;
+    i{
+      color: white;
+    }
+  }
